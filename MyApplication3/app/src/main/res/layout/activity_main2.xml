@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="@string/test_result"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textStyle"
+        android:text="@string/warning_info"/>
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/good"
+        android:contentDescription="@string/todo2"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="421dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:max="2"
+            android:progress="0"
+            android:progressDrawable="@drawable/progressbar"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/resultImage"
+                android:layout_marginStart="90dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ok"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/resultTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="@string/condition_info"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

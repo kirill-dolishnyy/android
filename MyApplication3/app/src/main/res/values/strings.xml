@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">kr</string>
+    <string name="title">Переутомление (Ортостатистическая проба)</string>
+    <string name="info_1">Для прохождения теста необходимо иметь возможность лечь на 5 минут. Время проведения теста около 10-15 минут</string>
+    <string name="todo">TODO</string>
+    <string name="birth_date">Дата рождения:</string>
+    <string name="info_2">Тест</string>
+    <string name="info_sex">Пол</string>
+    <string name="info_3">3. Введите пульс в положении лежа</string>
+    <string name="info_4">2. Посчитать пульс в течение минуты</string>
+    <string name="info_5">1. Необходимо лечь и лежать 5 минут почти без движений</string>
+    <string name="test_result">Результаты теста</string>
+    <string name="warning_info">Не забывайте о регулярном профессиональном медицинском осмотре!</string>
+    <string name="todo2">TODO</string>
+    <string name="condition_info">Введенные значения соответствуют отсутствию переутомления</string>
+    <string name="text_1">4. Встать и стоять без движений почти 5 минут</string>
+    <string name="text_2">5. Посчитать пульс в течение минуты</string>
+    <string name="text_6">6. Введите пульс в положении стоя:</string>
+    <string name="text_7">7. Нажмите Ввод. Тест Завершен!</string>
+    <string name="Enter">Ввод</string>
+</resources>
